@@ -1,7 +1,7 @@
 # Getting Started with Create React App (Spotify clone used SpotifyAPI)
 
 ## App Login Page
-![login page](/public/media/spotify-app-login.jpg "Login Page")
+![login page](/client/public/media/spotify-app-login.jpg "Login Page")
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
