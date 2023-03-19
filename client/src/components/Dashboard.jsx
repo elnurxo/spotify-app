@@ -26,7 +26,7 @@ function Dashboard({ code }) {
   useEffect(() => {
     if(!playingTrack) return;
 
-    axios.get('http://localhost:3001/lyrics',{
+    axios.get('https://spotify-react.onrender.com/lyrics',{
       params:{
         track: playingTrack.track,
         artist: playingTrack.artist
