@@ -2,7 +2,14 @@
 
 ## App Login Page
 ![login page](/client/public/media/spotify-app-login.jpg "Login Page")
-
+## App Search Page (Desktop)
+![search page](/client/public/media/spotify-app-1.jpg "Search Page")
+## App Search Page (Mobile)
+![search page](/client/public/media/spotify-app-search-responsive.jpg "Search Page, mobile")
+## App Lyrics Page
+![lyrics page](/client/public/media/spotify-app-lyrics.jpg "Lyrics Page")
+## App Lyrics Page (Mobile)
+![lyrics page](/client/public/media/spotify-app-lyrics.jpg "Lyrics Page, mobile")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
