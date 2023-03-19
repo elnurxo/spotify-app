@@ -7,7 +7,7 @@ function useAuth(code) {
     const [expiresIn, setExpiresIn] = useState();
 
     useEffect(() => {
-      axios.post('http://localhost:3001/login',{
+      axios.post('https://spotify-react.onrender.com/login',{
         code,
       }).then(res=>{
         setAccessToken(res.data.accessToken);
@@ -26,7 +26,7 @@ function useAuth(code) {
         if (!refreshToken || !expiresIn)  return;
 
         const interval = setInterval(() =>{
-            axios.post('http://localhost:3001/refresh',{
+            axios.post('https://spotify-react.onrender.com/refresh',{
             refreshToken,
           }).then(res=>{
             setAccessToken(res.data.accessToken);
