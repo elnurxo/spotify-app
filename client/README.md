@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Getting Started with Create React App (Spotify clone used SpotifyAPI)
+
+## App Login Page
+![alt text]("./public/media/spotify-app-login.jpg")
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
